@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./",
+    "incremental": true,
+    "paths": {
+      "@core/*": ["packages/core/*"],
+      "@users*": ["packages/server/src/modules/users/*"]
+    }
+  }
+}

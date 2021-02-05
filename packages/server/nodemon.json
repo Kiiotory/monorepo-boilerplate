@@ -1,0 +1,11 @@
+{
+  "watch": [
+    "src",
+    "../core"
+  ],
+  "ext": "ts",
+  "ignore": [
+    "src/**/*.spec.ts"
+  ],
+  "exec": "ts-node --project ./tsconfig.json -r tsconfig-paths/register src/main.ts"
+}
