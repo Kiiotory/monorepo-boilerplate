@@ -9,7 +9,7 @@ module.exports = {
     '^.+\\.(t|j)s$': 'ts-jest',
   },
   moduleNameMapper: {
-    '@core/(.*)': '<rootDir>/../core/$1',
-    '@users/(.*)': '<rootDir>/src/modules/users/$1',
+    '^@core/(.*)$': '<rootDir>/../core/$1',
+    '^@users/(.*)$': '<rootDir>/src/modules/users/$1',
   },
 };
